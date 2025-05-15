@@ -207,15 +207,15 @@ def build_model():
 model = build_model()
 st.session_state['model'] = model
 st.session_state['model'].summary()
-# plot_model(
-# 	st.session_state['model'],
-# 	to_file = 'model_plot.png',
-# 	show_shapes = True,
-# 	show_layer_names = True,
-# 	show_layer_activations = True,
-#     dpi = 80
-# )
-# st.image('model_plot.png', caption='Архитектура модели')
+plot_model(
+	st.session_state['model'],
+	to_file = 'model_plot.png',
+	show_shapes = True,
+	show_layer_names = True,
+	show_layer_activations = True,
+    dpi = 80
+)
+st.image('model_plot.png', caption='Архитектура модели')
 
 col1, col2 = st.columns(2)
 
