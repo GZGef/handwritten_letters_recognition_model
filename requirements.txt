@@ -102,7 +102,7 @@ easydict==1.13
 editdistance==0.8.1
 eerepr==0.1.2
 einops==0.8.1
-en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.8.0/en_core_web_sm-3.8.0-py3-none-any.whl#sha256=1932429db727d4bff3deed6b34cfc05df17794f4a52eeb26cf8928f7c1a0fb85
+
 entrypoints==0.4
 et_xmlfile==2.0.0
 etils==1.12.2
@@ -162,7 +162,6 @@ google-cloud-resource-manager==1.14.2
 google-cloud-spanner==3.54.0
 google-cloud-storage==2.19.0
 google-cloud-translate==3.20.2
-google-colab @ file:///colabtools/dist/google_colab-1.0.0.tar.gz
 google-crc32c==1.7.1
 google-genai==1.14.0
 google-generativeai==0.8.5
@@ -271,7 +270,6 @@ lazr.restfulclient==0.14.4
 lazr.uri==1.0.6
 lazy_loader==0.4
 libclang==18.1.1
-libcudf-cu12 @ https://pypi.nvidia.com/libcudf-cu12/libcudf_cu12-25.2.1-py3-none-manylinux_2_28_x86_64.whl
 libcugraph-cu12==25.2.0
 libcuml-cu12==25.2.1
 libcuvs-cu12==25.2.1
@@ -430,7 +428,6 @@ pygit2==1.18.0
 Pygments==2.19.1
 PyGObject==3.42.0
 PyJWT==2.10.1
-pylibcudf-cu12 @ https://pypi.nvidia.com/pylibcudf-cu12/pylibcudf_cu12-25.2.1-cp311-cp311-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl
 pylibcugraph-cu12==25.2.0
 pylibraft-cu12==25.2.0
 pymc==5.22.0
@@ -562,7 +559,6 @@ tinycss2==1.4.0
 tokenizers==0.21.1
 toml==0.10.2
 toolz==0.12.1
-torch @ https://download.pytorch.org/whl/cu124/torch-2.6.0%2Bcu124-cp311-cp311-linux_x86_64.whl
 torchao==0.10.0
 torchaudio @ https://download.pytorch.org/whl/cu124/torchaudio-2.6.0%2Bcu124-cp311-cp311-linux_x86_64.whl
 torchdata==0.11.0
