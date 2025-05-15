@@ -8,6 +8,5 @@ tensorflow
 pillow
 gdown
 keras
-pydot
-plotly
 graphviz
+plotly
