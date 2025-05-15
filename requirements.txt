@@ -7,6 +7,5 @@ scikit-learn
 tensorflow
 pillow
 gdown
-keras
+keras>=3.8.0
 plotly
-pydot>=1.4.2
